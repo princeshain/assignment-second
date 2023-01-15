@@ -1,0 +1,248 @@
+
+/* ^^^^^^^^^^^^^^^^^^^^
+     G3 Architects styles
+^^^^^^^^^^^^^^^^^^^^^ */
+.container{
+    background: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    height: 1322px;
+}
+.architects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.architects-title{
+    color: #131313;
+    text-align: center;
+    font-weight: 750;
+    font-size: 50px;
+    margin-left: 215px;
+    margin-top: 48px;
+}
+.items{
+    color: #424242;
+    display: flex;
+    width: 477px;
+    height: 26px;
+    gap: 50px;
+    margin-right: 200px;
+    margin-top: 60px;
+}
+
+/* --------------------------------------
+        Brand New Group of Architects 
+------------------------------------------ */
+.brand{
+    text-align: center;
+    width: 100%;
+}
+.brand-title{
+    color: #131313;
+    font-size: 70px;
+    margin: 55px 520px 20px 520px;
+}
+.brand-description{
+    font-weight: 450;
+    font-size: 20px;
+    margin: 20px 520px 55px 520px;
+}
+/* ===================================== 
+            button styles 
+======================================= */
+
+.button{
+    text-align: center;
+    font-weight: 650;
+    font-size: 24px;
+    margin: 56px 865px 48px 865px;
+}
+.btn-primary{
+    background: #FF900E;
+    color: #FFFFFF;
+    border-radius: 10px;
+    height: 70px;
+    width: 190px;
+}
+/* +++++++++++++++++++++++++
+        images style 
++++++++++++++++++++++++++++++ */
+
+.banner{
+    width: 100%;
+    height: 700px;
+    margin: 40px 220px 35px 220px;
+}
+/* &&&&&&&&&&&&&&&&&&&&
+      team styles
+ &&&&&&&&&&&&&&&&&&&&&& */
+
+.team{
+    display: flex;
+    width: 100%;
+}
+.team-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 8px;
+}
+.team-title{
+    color: #131313;
+    margin-top: 90px;
+    margin-left: 290px;
+}
+.features{
+    margin: 290px 300px 290px 70px;
+}
+.features-title{
+    color: #131313;
+    font-size: 50px;
+}
+.features-description{
+    color: #727272;
+    font-size: 20px;
+}
+.features-color{
+    color: #727272;
+}
+.features-color-style{
+    color: #FF900E;
+}
+
+/* ##################################
+Features you will love & enjoy styles
+####################################*/
+
+.box-container{
+    display: flex;
+    width: 100%;
+    height: 1049px;
+    margin: 100px 230px 100px 220px;
+}
+.box{
+    width: 576px;
+    height: 972px;
+}
+.sub-box{
+    width: 586.36px;
+    height: 744px;
+}
+.sub-small-box{
+    width: 576px;
+    height: 161px;
+}
+.box-title{
+    color: #131313;
+    font-size: 43px;
+}
+.box-sub-title{
+    color: #131313;
+    font-size: 18px;
+}
+.box-title-description{
+    color: #727272;
+    margin-bottom: 23px;
+    font-size: 14px;
+}
+.box-description{
+    color: #727272;
+    font-size: 14px;
+}
+.box-banner{
+    width: 790px;
+    height: 1049px;
+}
+
+/* ((((((((((((((((((((((((((((((
+          Some Facts styles
+))))))))))))))))))))))))))))))))))*/
+
+.Facts-title{
+    color: #131313;
+    font-size: 40px;
+    margin: 100px 1000px 10px 220px;
+}
+.Facts-description{
+    color: #727272;
+    font-size: 14px;
+    margin: 10px 750px 10px 220px;
+}
+/* ++++++++++++++++++++++ 
+      Icon styles
+++++++++++++++++++++++++++ */
+.icon{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 700px 50px 100px;
+    width: 100%;
+}
+.icon-box{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+.box-img{
+    width: 35px;
+    height: 35px;
+    margin: 40px 90px 0 80px;
+}
+.icon-number{
+    color: #131313;
+    font-size: 45px;
+    margin: 10px 65px 0 75px;
+}
+.icon-text{
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 4px 55px 70px 55px;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      Sponspors>>> Footer styles
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.sponspor{
+    width: 542px;
+    height: 129px;
+    margin: 50px 500px 0 500px;
+}
+.sponspor-title{
+    color: #131313;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.sponspor-description{
+    color: #727272;
+    text-align: center;
+    font-size: 10px;
+}
+/* =============================
+============Footer ==============
+=================================*/
+.sponspor-box{
+    margin: 130px 700px 40px 250px;
+}
+.sponspor-id{
+    display: flex;
+    justify-content: space-around;
+}
+.sponspor-id-number{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.footer-button{
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 1440px;
+    height: 100px;
+    text-align: center;
+    margin: 120px 220px 120px 300px;
+}
+.footer-primary-button{
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 30px 400px 31px 401px;
+}
